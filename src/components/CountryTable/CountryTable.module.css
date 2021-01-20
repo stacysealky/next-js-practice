@@ -1,0 +1,15 @@
+.heading {
+    display: flex;
+}
+
+.heading button {
+    border: none;
+    background-color: transparent;
+}
+
+.heading_name, .heading_population {
+    flex: 1;
+    padding: 20px;
+    color: var(--text-color);
+    font-weight: bold;
+}
